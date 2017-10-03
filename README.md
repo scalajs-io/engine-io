@@ -5,7 +5,7 @@ cross-browser/cross-device bi-directional communication layer for Socket.IO.
 
 ### Build Requirements
 
-* [SBT v0.13.15](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 
 ### Build/publish the SDK locally
@@ -66,7 +66,7 @@ server.on("connection", { socket: Socket =>
 To add the `engine.io` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "engine.io" % "0.4.0"
+libraryDependencies += "io.scalajs.npm" %%% "engine.io" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
