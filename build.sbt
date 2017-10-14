@@ -5,11 +5,9 @@ import sbt._
 
 import scala.language.postfixOps
 
-val scalaJsIOVersion = "0.4.1"
+val scalaJsIOVersion = "0.4.2"
 val apiVersion = scalaJsIOVersion
 val scalaJsVersion = "2.12.3"
-
-homepage := Some(url("https://github.com/scalajs-io/engine.io"))
 
 lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
@@ -17,6 +15,7 @@ lazy val root = (project in file(".")).
     name := "engine.io",
     organization := "io.scalajs.npm",
     description := "Filed API bindings for Scala.js",
+    homepage := Some(url("https://github.com/scalajs-io/engine.io")),
     version := apiVersion,
     scalaVersion := scalaJsVersion,
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-language:implicitConversions", "-Xlint"),

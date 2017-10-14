@@ -1,6 +1,6 @@
 {
   "name": "engine-io-sjs",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "dependencies": {
     "engine.io": "^3.1.2",
